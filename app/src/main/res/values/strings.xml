@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Media Player Animation</string>
+
+    <string name="video_title">my Video Title</string>
+    <string name="video_thumbnail_description">Video Thumbnail</string>
+    <string name="play_icon_description">Play Icon</string>
+</resources>

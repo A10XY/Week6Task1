@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/Video_Thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bk_programmer_image"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/video_thumbnail_description" />
+
+    <TextView
+        android:id="@+id/Video_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/video_title_color"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="10dp"
+        android:text="@string/video_title"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageView
+        android:id="@+id/Play_Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play"
+        app:tint="@color/white"
+        android:contentDescription="@string/play_icon_description" />
+
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
